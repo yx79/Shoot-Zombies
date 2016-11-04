@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B86BCA4D1DCAA2D70030125B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B86BCA4C1DCAA2D70030125B /* main.m */; };
+		B86BCA501DCAA2D70030125B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B86BCA4F1DCAA2D70030125B /* AppDelegate.m */; };
+		B86BCA521DCAA2D70030125B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B86BCA511DCAA2D70030125B /* GameScene.sks */; };
+		B86BCA541DCAA2D70030125B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B86BCA531DCAA2D70030125B /* Actions.sks */; };
+		B86BCA571DCAA2D70030125B /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B86BCA561DCAA2D70030125B /* GameScene.m */; };
+		B86BCA5A1DCAA2D80030125B /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B86BCA591DCAA2D80030125B /* GameViewController.m */; };
+		B86BCA5D1DCAA2D80030125B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86BCA5B1DCAA2D80030125B /* Main.storyboard */; };
+		B86BCA5F1DCAA2D90030125B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86BCA5E1DCAA2D90030125B /* Assets.xcassets */; };
+		B86BCA621DCAA2D90030125B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86BCA601DCAA2D90030125B /* LaunchScreen.storyboard */; };
+		B86BCA6D1DCAA36A0030125B /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = B86BCA691DCAA36A0030125B /* bullet.png */; };
+		B86BCA701DCAA36A0030125B /* particle.png in Resources */ = {isa = PBXBuildFile; fileRef = B86BCA6C1DCAA36A0030125B /* particle.png */; };
+		B86BCA9D1DCBFFA20030125B /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = B86BCA9B1DCBFFA20030125B /* MyParticle.sks */; };
+		B8C549C31DCD4160003D5027 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = B8C549C21DCD4160003D5027 /* home.png */; };
+		B8C549C51DCD4166003D5027 /* enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = B8C549C41DCD4166003D5027 /* enemy.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B86BCA481DCAA2D70030125B /* Zombies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zombies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B86BCA4C1DCAA2D70030125B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B86BCA4E1DCAA2D70030125B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B86BCA4F1DCAA2D70030125B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B86BCA511DCAA2D70030125B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		B86BCA531DCAA2D70030125B /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		B86BCA551DCAA2D70030125B /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		B86BCA561DCAA2D70030125B /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		B86BCA581DCAA2D80030125B /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		B86BCA591DCAA2D80030125B /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		B86BCA5C1DCAA2D80030125B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B86BCA5E1DCAA2D90030125B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B86BCA611DCAA2D90030125B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B86BCA631DCAA2D90030125B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B86BCA691DCAA36A0030125B /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet.png; sourceTree = "<group>"; };
+		B86BCA6C1DCAA36A0030125B /* particle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = particle.png; sourceTree = "<group>"; };
+		B86BCA9B1DCBFFA20030125B /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		B8C549C21DCD4160003D5027 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		B8C549C41DCD4166003D5027 /* enemy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B86BCA451DCAA2D70030125B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B86BCA3F1DCAA2D70030125B = {
+			isa = PBXGroup;
+			children = (
+				B86BCA4A1DCAA2D70030125B /* Zombies */,
+				B86BCA491DCAA2D70030125B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B86BCA491DCAA2D70030125B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B86BCA481DCAA2D70030125B /* Zombies.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B86BCA4A1DCAA2D70030125B /* Zombies */ = {
+			isa = PBXGroup;
+			children = (
+				B86BCA4E1DCAA2D70030125B /* AppDelegate.h */,
+				B86BCA4F1DCAA2D70030125B /* AppDelegate.m */,
+				B86BCA511DCAA2D70030125B /* GameScene.sks */,
+				B86BCA531DCAA2D70030125B /* Actions.sks */,
+				B86BCA551DCAA2D70030125B /* GameScene.h */,
+				B86BCA561DCAA2D70030125B /* GameScene.m */,
+				B86BCA581DCAA2D80030125B /* GameViewController.h */,
+				B86BCA591DCAA2D80030125B /* GameViewController.m */,
+				B86BCA5B1DCAA2D80030125B /* Main.storyboard */,
+				B86BCA5E1DCAA2D90030125B /* Assets.xcassets */,
+				B86BCA691DCAA36A0030125B /* bullet.png */,
+				B8C549C21DCD4160003D5027 /* home.png */,
+				B8C549C41DCD4166003D5027 /* enemy.png */,
+				B86BCA6C1DCAA36A0030125B /* particle.png */,
+				B86BCA601DCAA2D90030125B /* LaunchScreen.storyboard */,
+				B86BCA631DCAA2D90030125B /* Info.plist */,
+				B86BCA4B1DCAA2D70030125B /* Supporting Files */,
+				B86BCA9B1DCBFFA20030125B /* MyParticle.sks */,
+			);
+			path = Zombies;
+			sourceTree = "<group>";
+		};
+		B86BCA4B1DCAA2D70030125B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B86BCA4C1DCAA2D70030125B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B86BCA471DCAA2D70030125B /* Zombies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B86BCA661DCAA2D90030125B /* Build configuration list for PBXNativeTarget "Zombies" */;
+			buildPhases = (
+				B86BCA441DCAA2D70030125B /* Sources */,
+				B86BCA451DCAA2D70030125B /* Frameworks */,
+				B86BCA461DCAA2D70030125B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zombies;
+			productName = Zombies;
+			productReference = B86BCA481DCAA2D70030125B /* Zombies.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B86BCA401DCAA2D70030125B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Yuanjie Xie";
+				TargetAttributes = {
+					B86BCA471DCAA2D70030125B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5R3X365C82;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B86BCA431DCAA2D70030125B /* Build configuration list for PBXProject "Zombies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B86BCA3F1DCAA2D70030125B;
+			productRefGroup = B86BCA491DCAA2D70030125B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B86BCA471DCAA2D70030125B /* Zombies */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B86BCA461DCAA2D70030125B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86BCA5D1DCAA2D80030125B /* Main.storyboard in Resources */,
+				B86BCA6D1DCAA36A0030125B /* bullet.png in Resources */,
+				B8C549C51DCD4166003D5027 /* enemy.png in Resources */,
+				B8C549C31DCD4160003D5027 /* home.png in Resources */,
+				B86BCA521DCAA2D70030125B /* GameScene.sks in Resources */,
+				B86BCA701DCAA36A0030125B /* particle.png in Resources */,
+				B86BCA5F1DCAA2D90030125B /* Assets.xcassets in Resources */,
+				B86BCA621DCAA2D90030125B /* LaunchScreen.storyboard in Resources */,
+				B86BCA541DCAA2D70030125B /* Actions.sks in Resources */,
+				B86BCA9D1DCBFFA20030125B /* MyParticle.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B86BCA441DCAA2D70030125B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86BCA5A1DCAA2D80030125B /* GameViewController.m in Sources */,
+				B86BCA501DCAA2D70030125B /* AppDelegate.m in Sources */,
+				B86BCA571DCAA2D70030125B /* GameScene.m in Sources */,
+				B86BCA4D1DCAA2D70030125B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B86BCA5B1DCAA2D80030125B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B86BCA5C1DCAA2D80030125B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B86BCA601DCAA2D90030125B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B86BCA611DCAA2D90030125B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B86BCA641DCAA2D90030125B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B86BCA651DCAA2D90030125B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B86BCA671DCAA2D90030125B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5R3X365C82;
+				INFOPLIST_FILE = Zombies/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanjiexie.spring2016.Zombies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B86BCA681DCAA2D90030125B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5R3X365C82;
+				INFOPLIST_FILE = Zombies/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanjiexie.spring2016.Zombies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B86BCA431DCAA2D70030125B /* Build configuration list for PBXProject "Zombies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B86BCA641DCAA2D90030125B /* Debug */,
+				B86BCA651DCAA2D90030125B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B86BCA661DCAA2D90030125B /* Build configuration list for PBXNativeTarget "Zombies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B86BCA671DCAA2D90030125B /* Debug */,
+				B86BCA681DCAA2D90030125B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B86BCA401DCAA2D70030125B /* Project object */;
+}
